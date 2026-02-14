@@ -1,0 +1,6 @@
+streamlit
+datetime
+streamlit_lottie
+time
+matplotlib.pyplot 
+numpy
