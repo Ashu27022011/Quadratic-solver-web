@@ -193,9 +193,9 @@ def graphs():
 
     st.title("📊 Interactive Quadratic Graph")
 
-    a = st.slider("a (controls opening)", -5.0, 5.0, 1.0)
-    b = st.slider("b (controls tilt)", -10.0, 10.0, 0.0)
-    c = st.slider("c (vertical shift)", -10.0, 10.0, 0.0)
+    a = st.slider("a (coefficient of X^2)", -1000.0, 1000.0, 1.0)
+    b = st.slider("b (coefficent of x)", -1000.0, 1000.0, 1.0)
+    c = st.slider("c (constant)", -1000.0, 1000.0, 1.0)
 
     x = np.linspace(-10, 10, 500)
     y = a*x**2 + b*x + c
@@ -508,3 +508,4 @@ else:
     
     pages.run()
             
+
