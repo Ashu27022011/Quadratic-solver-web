@@ -478,7 +478,7 @@ def code1(pas):
     if pas == password:
         secret()
     else:
-        st.write("For password Mail: **ashutoshreddy.g@hotmail.com**")
+        st.write("For password Mail: **ashutoshreddy.g@gmail.com**")
 
 def code2():
     col1,col2 = st.columns(2)
