@@ -133,4 +133,4 @@ This project is open source and available under the MIT License.
 
 GitHub: https://github.com/Ashu27022011
 
-**given by a GPT so, please be aware of this**
+**This readme and some bit of code is done by GPT so, beaware**
